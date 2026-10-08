@@ -11,7 +11,5 @@ respuestas = ["Sin duda alguna.",
               "Todo apunta a un éxito rotundo."
 ]
 st.markdown("---")
-col1 = st.columns(1)
-with col1:
-    if st.button("Tu respuesta es:", use_container_width=True):
-        st.success(f"**¡Hot Seat!**\n\n{random.choice(respuestas)}")
+if st.button("Tu respuesta es:", use_container_width=True):
+    st.success(f"**¡Hot Seat!**\n\n{random.choice(respuestas)}")

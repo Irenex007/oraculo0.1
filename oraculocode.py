@@ -11,5 +11,5 @@ respuestas = ["Sin duda alguna.",
               "Todo apunta a un éxito rotundo."
 ]
 st.markdown("---")
-if st.button("Tu respuesta es:", use_container_width=True):
-    st.success(f"**¡Hot Seat!**\n\n{random.choice(respuestas)}")
+if st.button("Que el azar decida", use_container_width=True):
+    st.success(f"**Tu respuesta es:**\n\n{random.choice(respuestas)}")

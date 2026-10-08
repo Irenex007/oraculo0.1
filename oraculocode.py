@@ -1,5 +1,5 @@
 import streamlit as st
-import rand
+import random
 st.set_page_config(page_title="Oráculo", page_icon="🔮", layout="centered")
 st.title("Oráculo🔮")
 st.markdown("### Deja que el oráculo decida por tí:")

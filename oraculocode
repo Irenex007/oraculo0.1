@@ -1,2 +1,12 @@
 import streamlit as st
-import random
+import rand
+st.set_page_config(page_title="Oráculo", page_icon="🔮", layout="centered")
+st.title("Oráculo🔮")
+st.markdown("### Deja que el oráculo decida por tí:")
+Respuestas = ["Sin duda alguna.",
+              "El universo conspira a tu favor.",
+              "Es tu destino; avanza con confianza.",
+              "Los astros están alineados a tu favor.",
+              "Definitivamente, sí.",
+              "Todo apunta a un éxito rotundo."
+]
